@@ -1,0 +1,27 @@
+Emmet is a shortcut tool in vs code that helps us css and html code quicky ,easy  and time saving
+src is a source or attribute in html
+it tell broswer where you find file
+framework and library 
+
+| Library                           | Framework                                       |
+| --------------------------------- | ----------------------------------------------- |
+| A collection of reusable code.    | A complete structure for building
+                                              applications. |
+| You call the library when needed. | The framework calls your code.                  |
+| You control the flow.             | The framework controls the flow.                |
+| More flexibility.                 | More rules and conventions.                     |
+
+
+ 
+ ✅ CDN stands for Content Delivery Network. It allows us 
+ to use libraries like React and Bootstrap without 
+ downloading them.
+
+ react 
+ react dom 
+ corrsionorgin is used  when a broswer load a resource from 
+ different website /domain
+
+
+ React.createElement(type, props, children);
+ The second argument ({}) is an object containing attributes like:
