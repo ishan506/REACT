@@ -1,4 +1,5 @@
-Emmet is a shortcut tool in vs code that helps us css and html code quicky ,easy  and time saving
+Emmet is a shortcut tool in vs code that helps us css and html code
+ quicky ,easy  and time saving
 src is a source or attribute in html
 it tell broswer where you find file
 framework and library 
@@ -25,3 +26,10 @@ framework and library
 
  React.createElement(type, props, children);
  The second argument ({}) is an object containing attributes like:
+
+
+ A bundle is a packaged version of all your project's 
+ files that the browser can load efficiently
+
+ A bundle is a packaged version of all your project's 
+ files that the browser can load efficiently

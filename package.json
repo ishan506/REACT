@@ -1,0 +1,34 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/ishan506/REACT#readme",
+  "bugs": {
+    "url": "https://github.com/ishan506/REACT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishan506/REACT.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "broswerlist": [
+    "last 2 chrome versions "
+  ]
+}

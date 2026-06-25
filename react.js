@@ -2,8 +2,9 @@
  heading.innerHTML="nam";
  const root=document.getElementById("root");
  root.appendChild(heading);*/
-
-const heading = React.createElement("h1", { id: "title",className:"p" }, "nam");
+import React from "react"
+import ReactDOM from "react-dom/Client"
+/*const heading = React.createElement("h1", { id: "title",className:"p" }, "nam");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
 
@@ -22,8 +23,7 @@ const head = React.createElement(
 );
 
 const r = ReactDOM.createRoot(document.getElementById("r"));
-r.render(head);
-
+r.render(head);*/
 /*const parent = React.createElement(
     "div",
     {},
@@ -33,4 +33,11 @@ r.render(head);
         "Hello"
     )
 );*/
- 
+const H=
+  (<div><h1>hii</h1></div>)
+;
+ const Heading =()=>{ (
+  <div><h1>hiii
+    </h1>{H}</div>);};
+const root = ReactDOM.createRoot(document.getElementById("root"));
+ root.render(<Heading/>);
