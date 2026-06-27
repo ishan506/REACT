@@ -32,7 +32,7 @@ r.render(head);*/
         {},
         "Hello"
     )
-);*/
+);
 const H=
   (<div><h1>hii</h1></div>)
 ;
@@ -40,4 +40,10 @@ const H=
   <div><h1>hiii
     </h1>{H}</div>);};
 const root = ReactDOM.createRoot(document.getElementById("root"));
- root.render(<Heading/>);
+ root.render(<Heading/>);*/
+
+
+const Middle=<div><h2>h</h2></div>;
+const T=(<div className="ti"><h1>hii{Middle}</h1><h2>by</h2></div>);
+const root=ReactDOM.createRoot(document.getElementById("root"));
+root.render(T);
