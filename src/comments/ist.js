@@ -47,3 +47,4 @@ const Middle=<div><h2>h</h2></div>;
 const T=(<div className="ti"><h1>hii{Middle}</h1><h2>by</h2></div>);
 const root=ReactDOM.createRoot(document.getElementById("root"));
 root.render(T);
+//../ go up in folder
